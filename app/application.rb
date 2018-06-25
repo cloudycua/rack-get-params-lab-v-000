@@ -20,6 +20,7 @@ class Application
         @@items.each do |item|
           resp.write "#{item}\n"
         end
+      end
     else
       resp.write "Path Not Found\n"
     end
@@ -35,3 +36,4 @@ class Application
     end
   end
 end
+
